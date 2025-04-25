@@ -1,0 +1,62 @@
+.notepad-wrapper {
+  background: url('../assets/notepad-bg.png') no-repeat center;
+  /* background-color: aqua; */
+  background-size: contain;
+  width: 600px;
+  height: 800px;
+  padding: 80px 0;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.notepad-title {
+  font-size: 100px;
+  margin: 35px 0 10px 0;
+  line-height: 1;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 260px;
+  margin: 40px 0 20px 0;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(0, 4, 255);
+  border: 2px solid #555;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: #fff1c48c;
+}
+
+.newGame {
+  background-color: #e3caa5;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.newGame:hover {
+  background-color: #d3b489;
+}

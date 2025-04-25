@@ -1,0 +1,31 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+
+.meImage {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-statement {
+  align-content: center;
+  margin: 2rem;
+}
+
+.notepad {
+  justify-items: end;
+}

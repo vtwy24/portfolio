@@ -1,0 +1,9 @@
+.layout-container {
+  margin: 0 auto;
+  min-height: 100vh;
+  /* background-image: url('../assets/web-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; */
+}
