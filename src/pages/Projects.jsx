@@ -6,7 +6,7 @@ import '../styles/Projects.css';
 export default function Projects() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1 className='subtitle'>Projects</h1>
           <a
             href="https://endearing-blancmange-7d9723.netlify.app/"
             target="_blank"
