@@ -1,19 +1,32 @@
+h1 {
+  justify-content: center;
+}
 .project-item {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem 15rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #ffffffba;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.396);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-item:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
 }
 
 .project-preview img {
   width: 100%;
   max-width: 300px;
   border-radius: 8px;
+  border: solid;
+  margin: 1rem;
 }
 
 .project-description {

@@ -1,27 +1,24 @@
 import React from 'react';
 import kuromiSvg from '../assets/kuromi-svg.png';
 
-import './Projects.css';
+import '../styles/Projects.css';
 
 export default function Projects() {
   return (
     <div>
       <h1>Projects</h1>
-      <p>add projects…</p>
-
-      <div className="project-item">
-        <div className="project-preview">
           <a
             href="https://endearing-blancmange-7d9723.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
+      <div className="project-item">
+        <div className="project-preview">
             <img
               src={kuromiSvg}
               alt="SVG project preview"
               width="300px"
             />
-          </a>
         </div>
 
         <div className="project-description">
@@ -33,6 +30,7 @@ export default function Projects() {
           </p>
         </div>
       </div>
+          </a>
     </div>
   );
 }

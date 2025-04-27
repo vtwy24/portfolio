@@ -1,0 +1,37 @@
+.appBar {
+  position: sticky;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  z-index: 1000;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.iconButton {
+  width: 110px;
+  height: 110px;
+  background: url(../assets/menu-icon.svg) center no-repeat;
+  background-size: 110px 110px;
+  border: none;
+  cursor: pointer;
+  margin: 0 2rem 0 4rem;
+}
+
+.title {
+  font-size: 120px;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+  margin: 0 4rem;
+  padding: 0 0 1rem 2rem;
+  color: #a2798f;
+  text-shadow:
+    0 1px 0 #c996b1,
+    0 2px 0 #b7839f,
+    0 3px 0 #915876,
+    0 4px 0 #66545e,
+    0 15px 15px rgba(0, 0, 0, 0.5);
+}

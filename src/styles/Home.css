@@ -3,6 +3,14 @@ body {
 }
 
 h1 {
+  margin: -10rem 0 -20rem 0;
+  font-size: 400px;
+  text-align: center;
+  color: #a2798f20;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
 font-size: 50px;
 }
 
@@ -10,15 +18,15 @@ p {
   font-size: 30px;
 }
 
-
 .meImage {
-  width: 400px;
+  width: 350px;
   height: auto;
   border-radius: 8px;
 }
 
 .profile {
   display: flex;
+  padding: 0 7rem;
 }
 
 .profile-statement {

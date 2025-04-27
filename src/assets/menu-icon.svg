@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" >
+  <rect x="0" y="0" width="500" height="500" fill="transparent"/>
+  <filter id="shadow">
+    <feDropShadow dx="5" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.5" />
+  </filter>
+
+  <!-- Base -->
+  <rect x="40" y="40" width="200"  height="200" fill="#a2798f" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="260" y="260" width="200"  height="200" fill="#a2798f" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="260" y="40" width="200"  height="200" fill="#a2798f" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="40" y="260" width="200"  height="200" fill="#a2798f" rx="10" ry="10" filter="url(#shadow)"/>
+<!-- Middle -->
+  <rect x="45" y="45" width="190"  height="190" fill="#baa2ae" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="265" y="265" width="190"  height="190" fill="#baa2ae" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="265" y="45" width="190"  height="190" fill="#baa2ae" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="45" y="265" width="190"  height="190" fill="#baa2ae" rx="10" ry="10" filter="url(#shadow)"/>
+<!-- Upper -->
+  <rect x="55" y="55" width="170"  height="170" fill="#cec3c8" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="275" y="275" width="170"  height="170" fill="#cec3c8" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="275" y="55" width="170"  height="170" fill="#cec3c8" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="55" y="275" width="170"  height="170" fill="#cec3c8" rx="10" ry="10" filter="url(#shadow)"/>
+
+  <!-- Upper -->
+  <!-- <rect x="65" y="65" width="150"  height="150" fill="#d2cdcd" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="285" y="285" width="150"  height="150" fill="#d2cdcd" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="285" y="65" width="150"  height="150" fill="#d2cdcd" rx="10" ry="10" filter="url(#shadow)"/>
+  <rect x="65" y="285" width="150"  height="150" fill="#d2cdcd" rx="10" ry="10" filter="url(#shadow)"/> -->
+</svg>

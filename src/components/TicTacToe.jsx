@@ -1,8 +1,8 @@
 import React, {useState } from 'react'
-import './TicTacToe.css'
+import '../styles/TicTacToe.css'
 
 function TicTacToe() {
-  const [board, setBoard] = useState(Array(9). fill(null));
+  const [board, setBoard] = useState(Array(9).fill(null));
   const [isXNext, setIsXNext] = useState(true);
   const [winner, setWinner] = useState(null);
 
