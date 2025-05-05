@@ -46,6 +46,8 @@ const newGame = () => {
 
   return (
     <div className='notepad-wrapper'>
+    <div className='notepad-bg'></div>
+    <div className='notepad-content'>
     <h1 className='notepad-title'>XO's</h1>
     <div className='board'>
       {board.map((square, i) => (
@@ -57,6 +59,7 @@ const newGame = () => {
     <button className='newGame' onClick={newGame}>
       New Game
     </button>
+    </div>
   </div>
 )
 

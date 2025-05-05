@@ -5,7 +5,6 @@ import '../styles/Navigation.css';
 function Navigation({
   isOpen = false,
   handleDrawerToggle = () => console.error('No handleDrawerToggle function provided'),
-  drawerWidth = 400,
 }) {
 
   const drawerRef = useRef(null);
@@ -24,24 +23,28 @@ return () => {
 };
 }, [isOpen, handleDrawerToggle]);
 
+const handleLinkClick = () => {
+  handleDrawerToggle()
+};
+
   return (
-    <nav ref={drawerRef} className={`drawer ${isOpen ? 'open' : ''}`} style={{ width: drawerWidth }}>
+    <nav ref={drawerRef} className={`drawer ${isOpen ? 'open' : ''}`}>
       <div className="drawer-content">
         <span className="drawer-title">MENU</span>
         <hr />
         <ul className="drawer-list">
           <li>
-            <NavLink to="/" className="drawer-link">
+            <NavLink to="/" className="drawer-link" onClick={handleLinkClick}>
               About Me
             </NavLink>
           </li>
           <li>
-            <NavLink to="/projects" className="drawer-link">
+            <NavLink to="/projects" className="drawer-link" onClick={handleLinkClick}>
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact-me" className="drawer-link">
+            <NavLink to="/contact-me" className="drawer-link" onClick={handleLinkClick}>
               Contact Me
             </NavLink>
           </li>

@@ -12,17 +12,17 @@
 }
 
 .iconButton {
-  width: 110px;
-  height: 110px;
+  width: 7rem;
+  height: 7rem;
   background: url(../assets/menu-icon.svg) center no-repeat;
-  background-size: 110px 110px;
+  background-size: 7rem 7rem;
   border: none;
   cursor: pointer;
   margin: 0 2rem 0 4rem;
 }
 
 .title {
-  font-size: 120px;
+  font-size: 8rem;
   font-weight: bold;
   font-family: 'Permanent Marker', cursive;
   margin: 0 4rem;
@@ -34,4 +34,90 @@
     0 3px 0 #915876,
     0 4px 0 #66545e,
     0 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px){
+  .appBar{
+    margin-left: 0.5rem;
+  }
+
+  .toolbar{
+    padding: 0 0 1rem 1rem;
+  }
+  .iconButton {
+    width: 7vw;
+    height: 7vw;
+    background-size: 7vw 7vw;
+    margin: 0;
+
+  }
+
+  .title {
+    font-size: 12vw;
+    margin: 0;
+    padding: 0 0 1.25rem 1.75rem;
+  }
+}
+
+@media (479px < width < 769px) {
+  .appBar{
+    margin-left: 0;
+  }
+
+  .toolbar{
+    padding-left: 0;
+  }
+
+  .iconButton {
+    width: 8vw;
+    height: 8vw;
+    background-size: 8vw 8vw;
+    margin: 0;
+
+  }
+
+  .title {
+    font-size: 12vw;
+    margin: 0;
+    padding: 0 0 1.5rem 3rem;
+  }
+}
+
+@media (768px < width < 1025px) {
+  .iconButton {
+    width: 5vw;
+    height: 5vw;
+    background-size: 5vw 5vw;
+    margin: 0;
+
+  }
+
+  .title {
+    font-size: 9vw;
+    margin: 0;
+    padding: 0 0 1rem 4rem;
+  }
+}
+
+@media (1024px < width < 1441px) {
+  .appBar{
+    margin-left: 0.5rem;
+  }
+
+  .toolbar{
+    padding: 0 0 1rem 1rem;
+  }
+  .iconButton {
+    width: 4vw;
+    height: 4vw;
+    background-size: 4vw 4vw;
+    margin: 0;
+
+  }
+
+  .title {
+    font-size: 7vw;
+    margin: 0;
+    padding: 0 0 1.5rem 4rem;
+  }
 }

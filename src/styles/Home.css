@@ -1,13 +1,13 @@
 h2 {
-font-size: 50px;
+  font-size: 3rem;
 }
 
 p {
-  font-size: 30px;
+  font-size: 1.75rem;
 }
 
 .meImage {
-  width: 550px;
+  width: 35rem;
   height: auto;
   margin: -6rem 0 0 6rem;
 }
@@ -24,4 +24,102 @@ p {
 
 .notepad {
   justify-items: end;
+}
+
+@media (max-width: 480px){
+  h2{
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  .profile{
+    padding: 1rem;
+  }
+
+  .meImage{
+    width: auto;
+    height: 15rem;
+    margin: 0;
+  }
+
+  .profile-statement{
+    margin: 4rem 0 0 1rem;
+  }
+}
+
+@media (479px < width < 769px) {
+  h2{
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  .profile{
+    padding: 0rem;
+  }
+
+  .meImage{
+    width: auto;
+    height: 25rem;
+    margin: 0;
+  }
+
+  .profile-statement{
+    margin: 5rem 0 0 1rem;
+  }
+}
+
+@media (768px < width < 1025px) {
+  h2{
+    font-size: 3.5vw;
+  }
+
+  p {
+    font-size: 1.5vw;
+  }
+
+  .profile{
+    padding: 1rem;
+  }
+
+  .meImage{
+    width: auto;
+    height: 25rem;
+    margin: 0;
+  }
+
+  .profile-statement{
+    margin: 8rem 0 0 1rem;
+  }
+
+}
+
+@media (1024px < width < 1441px) {
+  h2{
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 1.25vw;
+  }
+
+  .profile{
+    padding: 1rem;
+  }
+
+  .meImage{
+    width: auto;
+    height: 30rem;
+    margin: 0;
+  }
+
+  .profile-statement{
+    margin: 8rem 0 0 1rem;
+  }
+
 }

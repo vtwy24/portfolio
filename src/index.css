@@ -4,4 +4,37 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
+  overflow: hidden;
+}
+
+
+@media (max-width: 480px){
+  #root {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (479px < width < 769px) {
+  #root {
+    background-size: auto 100%;
+    width: 100%;
+}
+}
+
+@media (768px < width < 1025px) {
+  #root {
+    padding: 0;
+    margin: 0;
+    background-size: auto 100%;
+    background-position: center center;
+    width: 100%;
+}
+}
+
+@media (min-width: 1024px) {
+  #root {
+    background-size: cover;
+    background-position: center top;
+}
 }

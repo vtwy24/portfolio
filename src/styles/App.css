@@ -4,8 +4,36 @@ body {
 
 .subtitle {
   margin: -10rem 0 -20rem 0;
-  font-size: 400px;
+  font-size: 25rem;
   text-align: center;
   color: #a2798f20;
   font-family: 'Permanent Marker', cursive;
+}
+
+@media (max-width: 480px){
+  .subtitle {
+    margin: -4rem 0 -6rem 0;
+    font-size: 4rem;
+  }
+}
+
+@media (479px < width < 769px) {
+  .subtitle {
+    margin: -5rem 0 -7rem 0;
+    font-size: 6rem;
+}
+}
+
+@media (768px < width < 1025px) {
+  .subtitle {
+    margin: -7rem 0 -10rem 0;
+    font-size: 9.5rem;
+}
+}
+
+@media (1024px < width < 1441px) {
+  .subtitle {
+    margin: -8rem 0 -15rem 0;
+    font-size: 12rem;
+}
 }
