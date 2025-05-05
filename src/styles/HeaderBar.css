@@ -1,31 +1,31 @@
 .appBar {
   position: sticky;
   margin-bottom: 1rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   z-index: 1000;
 }
 
 .toolbar {
   display: flex;
   align-items: center;
-  padding: 0.75rem 1rem;
+  padding: 0 1rem;
 }
 
 .iconButton {
-  width: 7rem;
-  height: 7rem;
+  width: 5.5rem;
+  height: 5.5rem;
   background: url(../assets/menu-icon.svg) center no-repeat;
-  background-size: 7rem 7rem;
+  background-size: 5.5rem 5.5rem;
   border: none;
   cursor: pointer;
-  margin: 0 2rem 0 4rem;
+  margin: 0 2rem;
 }
 
 .title {
   font-size: 8rem;
   font-weight: bold;
   font-family: 'Permanent Marker', cursive;
-  margin: 0 4rem;
+  margin: 0 2rem;
   padding: 0 0 1rem 2rem;
   color: #a2798f;
   text-shadow:

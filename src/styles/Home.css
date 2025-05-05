@@ -3,18 +3,18 @@ h2 {
 }
 
 p {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .meImage {
-  width: 35rem;
-  height: auto;
-  margin: -6rem 0 0 6rem;
+  width: auto;
+  height: 40rem;
+  margin: 0;
 }
 
 .profile {
   display: flex;
-  padding: 0 8rem;
+  padding: 0 3rem;
 }
 
 .profile-statement {

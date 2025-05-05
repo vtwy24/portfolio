@@ -3,10 +3,10 @@ body {
 }
 
 .subtitle {
-  margin: -10rem 0 -20rem 0;
-  font-size: 25rem;
+  margin: -10rem 0 -15rem 0;
+  font-size: 17rem;
   text-align: center;
-  color: #a2798f20;
+  color: #a2798f1a;
   font-family: 'Permanent Marker', cursive;
 }
 
@@ -33,7 +33,7 @@ body {
 
 @media (1024px < width < 1441px) {
   .subtitle {
-    margin: -8rem 0 -15rem 0;
-    font-size: 12rem;
+    margin: -8rem 0 -12rem 0;
+    font-size: 11.5rem;
 }
 }
